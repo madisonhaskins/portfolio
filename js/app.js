@@ -1,5 +1,12 @@
-// Foundation JavaScript
-// Documentation can be found at: http://foundation.zurb.com/docs
+//Fix outside links.
+// $('.linkfix_Index').on('click',function() {
+//      window.location.href = "index.html";
+//   }
+//
+// $('.linkfix_AboutMe').on('click',function() {
+//     window.location.href = "aboutme.html";
+//  }
+
 $(document).foundation({
   	orbit: {
 		animation: 'fade', // Sets the type of animation used for transitioning between slides, can also be 'fade'
