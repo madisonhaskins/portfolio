@@ -51,7 +51,7 @@ var navigationHeadroom = (function() {
     var docElem = document.documentElement,
         nav = document.querySelector("#navigation"),
         didScroll = false,
-        changeHeaderOn = 600;
+        changeHeaderOn = 1;
 
 	var headroom = new Headroom(nav, {
 	  	"tolerance": 0,
