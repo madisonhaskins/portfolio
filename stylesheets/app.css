@@ -1,6 +1,6 @@
 @font-face {
 font-family: "Mogan";
-src: url("/fonts/Mogan-Regular.ttf");
+src: url("/fonts/Mogan-Regular.oft");
 }
 
 h1 {
@@ -249,7 +249,7 @@ button:hover {
 
 .expanded .top-bar-section ul {
 	text-align: center;
-	display: none;
+	display: block;
 }
 
 .top-bar.expanded .toggle-topbar a {
@@ -553,6 +553,9 @@ h5 {
 @media screen and (max-width: 640px) {
 	.grid img {
 		width: 100%
+	}
+	.top-bar-section ul {
+		display: none;
 	}
 }
 /*** Tablet ***/
