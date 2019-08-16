@@ -1,11 +1,3 @@
-//Fix outside links.
-// $('.linkfix_Index').on('click',function() {
-//      window.location.href = "index.html";
-//   }
-//
-// $('.linkfix_AboutMe').on('click',function() {
-//     window.location.href = "aboutme.html";
-//  }
 
 $(document).foundation({
   	orbit: {
