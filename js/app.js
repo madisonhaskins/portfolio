@@ -131,3 +131,8 @@ $('.project-close').click(function () {
 $('#menu a').click(function() {
     $('#top-bar').removeClass('expanded');
 });
+
+//scroll to top
+$('#backtotop').click(function () {
+  $('body, html').animate({scrollTop: 0}, 800);
+});
