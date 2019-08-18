@@ -1,54 +1,58 @@
 <!DOCTYPE html>
 
 <html class="no-js" lang="en">
-<head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Madison Haskins</title>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Madison Haskins</title>
 
-	<meta name="description" content="" />
+		<meta name="description" content="" />
 
-	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap" rel="stylesheet">
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap" rel="stylesheet">
 
-	<!-- CSS -->
-	<link rel="stylesheet" href="stylesheets/reset.css" />
-	<link rel="stylesheet" href="stylesheets/font-awesome.min.css" />
-	<link rel="stylesheet" href="stylesheets/app.css" />
+		<!-- CSS -->
+		<link rel="stylesheet" href="stylesheets/reset.css" />
+		<link rel="stylesheet" href="stylesheets/font-awesome.min.css" />
+		<link rel="stylesheet" href="stylesheets/app.css" />
 
-	<!-- JavaScript -->
-	<script src="js/modernizr.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<!-- JavaScript -->
+		<script src="js/modernizr.min.js"></script>
 
-</head>
+	</head>
 	<body>
 
 		<!-- Navigation-->
 		<section class="section section-collapse" id="navigation">
 
 				<nav class="top-bar" id="top-bar" data-topbar>
-						<ul class="title-area">
-							<li class="toggle-topbar menu-icon">
-								<a href="#"><i class="fa fa-bars"></i></a>
-							</li>
-						</ul>
+				  	<ul class="title-area">
+				    	<li class="toggle-topbar menu-icon">
+				    		<a href="#"><i class="fa fa-bars"></i></a>
+				    	</li>
+				  	</ul>
 
-						<section class="top-bar-section" id="menu"><!-- menu -->
-							<ul>
-								<li class = "linkfix_Index"><a href="index.html">Home</a></li>
-						  	<li class = "linkfix_Mywork"><a href="mywork.html">My Work</a></li>
-						  	<li class = "linkfix_AboutMe"><a href="aboutme.html">About Me</a></li>
+				  	<section class="top-bar-section" id="menu"><!-- menu -->
+					    <ul>
+								<li><a href="#">Home</a></li>
+						  	<li><a href="#mywork">My Work</a></li>
+						  	<li><a href="#aboutme">About Me</a></li>
 						</ul>
-					</section><!-- .menu -->
+				  </section><!-- .menu -->
 				</section>
 		<!-- .Navigation-->
 
 		<!-- Header-->
-		<section class="section header">
-			<section class="hero-header addtlheadline">
-				<h4>About Me!</h4>
+		<section class="section header addtlheader">
+			<section class="hero-header">
+				<section class="addtlheadline">
+					<h4>About Me!</h4><!-- title -->
 				</section>
 			</section>
+
+		</section>
+
+		<!-- .Header -->
 
 		<!-- About Me -->
 			<section class="section aboutme row">
@@ -96,6 +100,7 @@
 	</section>
 		<!-- .About Me -->
 
+
 		<!-- Get in Touch-->
 		<section class="section getintouch">
 
@@ -112,28 +117,29 @@
 					<p>Do you want to know more about me or my work?<br>
 							Or do you have a cool project that you want me to sectione into?<br>
 							Send me an email or give me a call!</p>
-							<a href="tel:1-562-867-5309"><h3 class="text-center">T: 479-409-6515</h3></a>
-							<a href="mailto:someone@yoursite.com"><h3 class="text-center">E: mail@madisonhaskins.com</h3></a>
+							<a href="tel:479-409-6515"><h3 class="text-center">T: 479-409-6515</h3></a>
+							<a href="mailto:mail@madisonhaskins.com"><h3 class="text-center">E: mail@madisonhaskins.com</h3></a>
 					</section>
 			</section>
 			</section>
 
 		<!-- .Get in touch-->
 
-		<!--Fix nested anchor tag issue-->
 		<script>
 		$('.linkfix_Index').on('click',function() {
-		     window.location.href = "index.html";
-		  });
+				 window.location.href = "index.html";
+			});
 
 		$('.linkfix_AboutMe').on('click',function() {
-		    window.location.href = "aboutme.html";
+				window.location.href = "aboutme.html";
 		 });
 
 		 $('.linkfix_Mywork').on('click',function() {
 				 window.location.href = "mywork.html";
 			});
 		</script>
+
+
 
 		<!-- Footer -->
 		<section class = "section footer">
