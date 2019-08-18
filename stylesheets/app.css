@@ -1,6 +1,6 @@
 @font-face {
-font-family: "Mogan";
-src: url("/fonts/Mogan-Regular.ttf");
+  font-family: Mogan;
+  src: url("Mogan-Regular.otf");
 }
 
 h1 {
