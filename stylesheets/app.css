@@ -2,6 +2,11 @@
 	font-family: Mogan;
 	src: url("Mogan-Regular.otf");
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 a:link {
 	text-decoration: none;
 }

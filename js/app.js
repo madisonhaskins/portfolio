@@ -12,38 +12,6 @@ $(document).foundation({
   	}
 });
 
-
-// Scroll
-
-function scrollToDiv(element,navheight){
-	var offset = element.offset();
-  	var offsetTop = offset.top;
-  	var totalScroll = offsetTop-navheight;
-  	$('body, html').animate({scrollTop: totalScroll}, 800);
-}
-
-$('#menu a, #scroll').click(function(e) {
-	e.preventDefault();
-  	var el = $(this).attr('href');
-  	var elWrapped = $(el);
-  	scrollToDiv(elWrapped,0);
-});
-
-$('.section').waypoint(function(direction) {
-    var $active = $(this);
-    if (direction === "up") {
-    	$active = $active.prev();
-    }
-    if (!$active.length) {
-    	$active.end();
-    }
-    var currentId = $active.attr('id');
-    $('#menu a').removeClass('active');
-    $('#menu a[href=#'+currentId+']').addClass('active');
-    }, { offset: '30%' }
-);
-
-
 // Headroom
 
 var navigationHeadroom = (function() {
@@ -91,15 +59,6 @@ var navigationHeadroom = (function() {
 })();
 
 
-// Animate On Scroll
-
-new AnimOnScroll(document.getElementById('grid'), {
-	minDuration : 0.4,
-	maxDuration : 0.6,
-	viewportFactor : 0.2
-});
-
-
 // Open Project
 
 $('.project-item').click(function () {
@@ -130,9 +89,4 @@ $('.project-close').click(function () {
 // Menu On Small Screen
 $('#menu a').click(function() {
     $('#top-bar').removeClass('expanded');
-});
-
-//scroll to top
-$('#backtotop').click(function () {
-  $('body, html').animate({scrollTop: 0}, 800);
 });
