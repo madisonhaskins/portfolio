@@ -46,8 +46,7 @@ li {
 }
 /** Buttons **/
 
-button {
-	position: relative;
+a.button {
 	margin-top: 2%;
 	background: #7E5D57;
 	border: 1px solid #000;
@@ -58,10 +57,9 @@ button {
 	font-family: 'Mogan';
 	letter-spacing: 2px;
 	transition: all 300ms ease-in-out;
-	left: 0;
-	top: 0;
 }
-button:hover {
+
+a.button:hover {
 	left: 4px;
 	top: 4px;
 	box-shadow: 0 0 0 0 #000;
@@ -174,7 +172,7 @@ button:hover {
 	font-weight: 300;
 	letter-spacing: 2px;
 }
-.footer button {
+.footer a {
 	margin: 10px;
 }
 .footer p {
