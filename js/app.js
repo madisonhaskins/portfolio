@@ -26,6 +26,6 @@ $('.project-close').click(function () {
 
 
 // Menu On Small Screen
-$('#menu a').click(function() {
-    $('#top-bar').removeClass('expanded');
+$(".fa-bars").click(function(){
+  $("#menu").toggle();
 });

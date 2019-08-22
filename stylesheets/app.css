@@ -501,7 +501,7 @@ h5 {
 	.grid img {
 		width: 100%
 	}
-	.top-bar-section ul {
+	#menu {
 		display: none;
 	}
 }
