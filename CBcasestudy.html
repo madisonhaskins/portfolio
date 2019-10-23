@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-145856450-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-145856450-1');
+		</script>
+
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Madison Haskins</title>
+
+		<meta name="description" content="" />
+
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap" rel="stylesheet">
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="stylesheets/reset.css" />
+		<link rel="stylesheet" href="stylesheets/font-awesome.min.css" />
+		<link rel="stylesheet" href="stylesheets/app.css" />
+
+		<!-- JavaScript -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+		<style>
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+</style>
+
+	</head>
+	<body>
+
+		<!-- Navigation-->
+		<section class="section section-collapse" id="navigation">
+
+				<nav class="top-bar" id="top-bar" data-topbar>
+				  	<ul class="title-area">
+				    	<li class="toggle-topbar menu-icon">
+				    		<a href="#"><i class="fa fa-bars"></i></a>
+				    	</li>
+				  	</ul>
+
+				  	<section class="top-bar-section" id="menu"><!-- menu -->
+							<ul>
+								<li class = "linkfix_Index"><a href="index.html">Home</a></li>
+						  	<li class = "linkfix_Mywork"><a href="mywork.html">My Work</a></li>
+						  	<li class = "linkfix_AboutMe"><a href="aboutme.html">About Me</a></li>
+						</ul>
+				  </section><!-- .menu -->
+				</nav>
+
+		</section>
+		<!-- .Navigation-->
+
+		<!-- Header-->
+		<section class="section header">
+			<section class="hero-header addtlheadline">
+				<h4>Crystal Bridges Case Study</h4>
+				</section>
+			</section>
+
+		<!-- .Header -->
+		<!-- Case Study Nav -->
+		<!-- .Case Study Nav -->
+
+		<!-- Case Study -->
+			<section class="section flexCS row">
+				<!-- Overview -->
+				<section class = "large-12 column cssection" id = "overview">
+					<h3>Overview</h3>
+					<p>Crystal Bridges is a well-known and world-renowned museum for American art located in my hometown of Bentonville, AR. I believe that Crystal Bridges is a hidden gem of Arkansas and because of my passion for it, I wanted my capstone project to center around Crystal Bridges. After visiting the website several times I realized that it should be the highlight of this project. The website itself is not particularly bad but I knew with the reputation of ‘world-renowned’ art museum to uphold - I though the website should mirror the beauty and creativity of the museum itself. </p>
+					<h3>Problem</h3>
+					<p>Below I’ve highlighted my MVPs. These are the things I thought could be improved on the site to improve the user experience and influence more people to visit.</p>
+
+					<p>
+						My MVPs are:
+						<br>1) Simplify the navigation
+						<br>2) Showcase Crystal Bridges branding
+						<br>3) Showcase of the Art, Architecture, and Nature
+					</p>
+
+						<p>The main item that needed to be improved on the site is the navigation. When looking for something specific on the page, it is difficult to find exactly what you're looking for. There are a ton of nav items that pop up when you scroll over one of the 8 navigation headings.
+							The next items have to do with with the overall Crystal Bridges branding. When in the museum Art, Architecture, and Nature are highlighted as the trifecta of what is important to the museum to showcase. I think it is important to communicate the same message through the website and highlight what is important.
+						</p>
+
+					<h3>Solution</h3>
+					<p>With the problems identified - the solutions started to become more obvious:
+						<br> - Combine pages to reduce nav items
+						<br> - Determining exactly what information users are looking for
+						<br> - Involve more photos of the museum and it’s activities on the first page
+						<br> - Highlight Art, Architecture, and Nature as soon as the page loads
+					</p>
+				</section>
+				<section class="projectdesc row">
+					<section class="large-12 columns">
+							 <section class = "text-center">
+								 <img src="images/CB3.png" alt="" /><br><br>
+							 </section>
+					</section>
+				</section>
+
+				<!-- Research -->
+				<section class = "large-12 column cssection" id = "research">
+					<h3>Process</h3>
+					<p>Because there was already a lot of unknowns communicated in the client brief we needed to get a good feeling of how people already felt about cloud collaboration platforms and storage. After polling around 15 users some conclusions were easy to draw. Our results spoke to the face that people are already using the cloud, and using the cloud to collaborate. They are also already sending files to other people (mostly through email).  What this is telling me is that we do not need to reinvent the wheel but design a product with what the users already expect plus some features that are unique to our product. Also using the surface we had the users rank their most desired features that we pulled from the client brief and they were ranked in the order shown above. Using this we can start to formulate user stores and user flows.</p>
+
+					<p><ol class = "researchlist">
+						<li>1. Uploading files from computer or phone</li>
+						<li>2. Collaboration in real time
+						<li>3. Sharing files and groups with others
+						<li>4. Creating content like documents and spreadsheet
+						<li>5. Saving content found on the web
+						<li>6. Organizing/grouping by tags and labels
+					</ol></p>
+
+					<h5>Competitve Analysis</h5>
+					<p>For my competitive analysis I chose 3 competitors that all used cloud collaboration in different ways. Trello is a small-project management platform that can be used to share files and links and lists with others to collaborate on. Evernote is more of personal organization tool that is available via the cloud  on all of your devices. You can keep track of lists, files, recordings, notes and you can also share these with others but it is not widely used for collaboration. Finally, Google Drive is the main player in this arena. It is a document storage and collaboration platform but ictt is limited in that you do not store you ideas, or links in this platform. It became apparent that this is a crowded space and in order to enter it you need a unique niche. I determined that I would combine aspects of all of these competitors and offer something that unifies them into one solution.</p>
+
+					<section class="projectdesc row">
+						<section class="large-12 columns">
+								 <section class = "text-center">
+									 <img src="images/competitors.png" alt="" /><br><br>
+								 </section>
+						</section>
+					</section>
+
+					<h5>User Personas</h5>
+					<p>The client brief did not specify their target audience so some ideal users were identified. WHen i did user surveys I had 2 main types of responders: project managers, and students. This pattern in my user surveys inspired my user personas. The first persona is a project manager who is motivated by organization and collaboration. He is balancing several projects and would like to take more on as long as he can efficiently manage his current projects well. The next user is a nursing student. She is typically working in groups to collaborate on projects and notes. She is motivated by keeping her assignments, links and fellow students organized by class or semester. These our our target users who we are to keep in mind when defining processes and design going forward.</p>
+
+					<section class="projectdesc row">
+						<section class="large-12 columns">
+								 <section class = "text-center">
+									 <img src="images/userpersonas.png" alt="" /><br><br>
+								 </section>
+						</section>
+					</section>
+
+					<h5>User Stories</h5>
+					<p>Using our research we needed to determine what features are most important. We ranked the highest desirables with insight from the survey and the client brief. Using the feedback from the user survey ranking, the highest ranked were put into the highest priority ranking for the user stories. Those ranked medium and low priority are those supporting actions that users would want to make and that they would expect to make because of their familiarity with the other cloud collaboration platforms.</p>
+
+					<section class="projectdesc row">
+						<section class="large-12 columns">
+								 <section class = "text-center" style = "width: 50%;">
+									 <img src="images/userstories.png" alt="" /><br><br>
+								 </section>
+						</section>
+					</section>
+
+					<h5>User Flows</h5>
+					<p>The question to answer now is how do we accomplish these user stories? Using the identification of top priority functionality with the user stories and using user flows created when analyzing our competitors, the below user flows demonstrate the steps the user will take to complete a task</p>
+
+					<section class="projectdesc row">
+						<section class="large-12 columns">
+								 <section class = "text-center">
+									 <img src="images/userflows.png" alt="" /><br><br>
+								 </section>
+						</section>
+					</section>
+				</section>
+				<!-- Design -->
+				<section class = "large-12 column cssection" id = "design">
+					<h3>Design</h3><br>
+					<h5>Wireframes</h5>
+					<p>The first wireframes created were in the form of sketches of the interfaces required to accomplish the high priority user stories. Once the sketches were completed I turned the sketches into low fidelity wireframes that showed how the elements would be positioned on the page but not much more than that. This went through the first iteration of user testing where users were instructed to click through processes like creating an account, creating content, and uploading content. </p>
+
+					<section class="projectdesc row">
+						<section class="large-12 columns">
+								 <section class = "text-center">
+									 <img src="images/wireframesketches.png" alt="" /><br><br>
+								 </section>
+						</section>
+					</section>
+
+					<section class="projectdesc row">
+						<section class="large-12 columns">
+								 <section class = "text-center">
+									 <img src="images/lowfidelitywireframes.png" alt="" /><br><br>
+								 </section>
+						</section>
+					</section>
+
+
+					<p> The feedback from <a href = "https://invis.io/9ASF53CYQHN">this first user testing session</a> was that:</p>
+					<p><ol class = "researchlist">
+						<li> - "The app looked similar to cloud collaboration platforms they were already familiar with."</li>
+						<li> - "There were a lot of buttons with ‘+ that all did the same thing’. All 3 users used a different button to add content."</li>
+						<li> - "Menu placement in the middle of the screen was not the best. The user feedback was I don’t want to drag my mouse to the middle of the screen. Put it closer to where I already clicked."</li>
+					</ol>
+				</p>
+					<p>Taking this feedback I went in to start creating mockups of the application.</p>
+				</section>
+				<!-- Branding -->
+				<section class = "large-12 column cssection" id = "branding">
+					<h3>Branding</h3>
+					<p>Now that we have feedback about the placement of the content it is time to start thinking visually. The first visual design I did was for the logo. The logo went through several iterations. When I originally did my mind mapping I was coming up with words from nature like ‘lightning’ and ‘power’, and ‘cloud’. My first logo used the nature theme and became a cloud with a lightning bolt. I quickly realized this would be a hard logo to make smaller so I needed to simply. I looked back at my mind map and there were words like ‘speed’ and ‘flexibility’. My initial thought was the shoe with the wings that Hermès the god wore. The shoe icon I created fit really well on the right of the word ‘flex’ which became the name of the tool. </p>
+					<p>Now that I had a name and a logo the colors and fonts came next. I decided to go with open sans as the body font as it is easy to read. I also used Fjalla as the main font and as the font in the logo because it complemented open sans and looks smart on the page. When I had a more nature theme in mind I used colors like blues and green. When I switched gears I made the blue similar to the DropBox blue and kept the green and added a touch of red.</p>
+					<p>After many iterations of branding design I was ready to apply it to the wireframes to start created a more high-fidelity mockup.</p>
+					<br>
+					<section class="projectdesc row">
+						<section class="large-12 columns">
+								 <section class = "text-center">
+									 <img src="images/mindmapping.png" alt="" /><br><br>
+								 </section>
+						</section>
+					</section>
+
+					<section class="projectdesc row">
+						<section class="large-12 columns">
+								 <section class = "text-center">
+									 <img src="images/branding.png" alt="" /><br><br>
+								 </section>
+						</section>
+					</section>
+
+				</section>
+				<!-- Prototypes -->
+				<section class = "large-12 column cssection" id = "prototype">
+					<h3>Prototypes</h3>
+					<p>The high-fidelity mockups went through 3 iterations to finally arrive at the final product. I will highlight the main changes over time alongside the second round of user testing performed. </p>
+					<p>With the creation of the first iteration of the prototypes I conducted some <a href = "https://app.usabilityhub.com/tests/45212c31593b/results/9a205e2eb13e">user testing</a> to determine what kind of design was most favorable. My tests included whether or not I should include a pattern behind the login/onboarding screen, menu placement, and hero image on the landing page. Using the feedback collected from the testing I implemented the most popular choice from all 3.</p>
+					<p>The first major iteration of design was for the dashboard and the new user dashboard. As you can see below the dashboard layout has stayed relatively the same over time. The main change is from when I did not have content, to where I filled in content. In my second iteration I added a ‘file preview’ but user feedback highlighted that it was too busy and hard to see. In my final design I expanded the file rectangle and added an icon designating what type of file it is to make the page simpler and add more color. </p>
+
+					<section class="projectdesc row">
+						<section class="large-12 columns">
+								 <section class = "text-center">
+									 <img src="images/prototypeexample1.png" alt="" /><br><br>
+								 </section>
+						</section>
+					</section>
+
+					<p>Back when I did my wireframe testing I got some feedback about how when you are on boarded you are brought to a seemingly already full dashboard. When I took this feedback to my mockups I created a blank dashboard that you arrive at after the onboarding process. In my final design you’ll see that I added some words to fill in the empty space with an action button. This was based on user feedback that the screen looked like it was still loading. I also think the addition of some words like ‘Whoops’ to the page gave the project a fun voice. </p>
+
+					<section class="projectdesc row">
+						<section class="large-12 columns">
+								 <section class = "text-center">
+									 <img src="images/prototypeexample2.png" alt="" /><br><br>
+								 </section>
+						</section>
+					</section>
+
+					<p>The last big change that saw some different iterations was the on-boarding and log in pages. The first two iterations never seemed to fit into the overall design. So finally in the final iteration i created a login/onboarding screen that flowed together while also adding some fun verbiage to engage the user and continue to give a voice to the project. The screens works almost as a toggle. If you click the login button it toggles the onboarding button and so on.</p>
+
+					<section class="projectdesc row">
+						<section class="large-12 columns">
+								 <section class = "text-center">
+									 <img src="images/prototypeexample3.png" alt="" /><br><br>
+								 </section>
+						</section>
+					</section>
+
+				</section>
+				<!-- Conclusion -->
+				<section class = "large-12 column cssection" id = "conclusion">
+					<h3>Conclusion</h3>
+					<p>After lots of research and iterations of the mockups a final solution emerged. Going back to the original client brief there were a lot of unknowns. After research we determined our approach to the functionality of the product and our target audience. Through iteration of visual design we created a brand and a color scheme and gave the content a voice. Finally after involving really users in the process we arrived at a final design that aligns with the client brief but also what the user wants. </p>
+				</section>
+			</section>
+
+		<!-- .Case Study -->
+
+		<!-- Get in Touch-->
+		<section class="section getintouch">
+
+			<section class="row">
+				<section class="large-12 columns text-center">
+					<section class="section-title">
+						<h1>Get in Touch</h1>
+					</section>
+				</section>
+			</section>
+
+			<section class="row">
+				<section class="large-12 columns text-center">
+					<p>Do you want to know more about me or my work?<br>
+							Or do you have a cool project that you want me to sectione into?<br>
+							Send me an email or give me a call!</p>
+							<a href="tel:1-562-867-5309"><h3 class="text-center">T: 479-409-6515</h3></a>
+							<a href="mailto:someone@yoursite.com"><h3 class="text-center">E: mail@madisonhaskins.com</h3></a>
+					</section>
+			</section>
+			</section>
+
+		<!-- .Get in touch-->
+
+		<!--Fix nested anchor tag issue-->
+		<script>
+		$('.linkfix_Index').on('click',function() {
+		     window.location.href = "index.html";
+		  });
+
+		$('.linkfix_AboutMe').on('click',function() {
+		    window.location.href = "aboutme.html";
+		 });
+
+		 $('.linkfix_Mywork').on('click',function() {
+				 window.location.href = "mywork.html";
+			});
+		</script>
+
+		<!-- Footer -->
+		<section class = "section footer">
+			<section class="row text-center">
+				<section class="large-12 columns text-center">
+					<a class = "button" href="files/Resume_MH.pdf" download="MadisonHaskinsResume.pdf">Download Resume</a><br><br>
+					<p>&copy; 2019 Designed and Developed by Madison Haskins</p>
+				</section>
+			</section>
+		</section>
+		<!-- .Footer -->
+
+		<!-- JavaScript -->
+		<!-- JQuery -->
+		<script src="js/jquery.min.js"></script>
+
+		<!-- portfolio js -->
+		<script src="js/app.js"></script>
+		<script src="js/slideshow.js"></script>
+		<!-- .JavaScript -->
+
+	</body>
+</html>
